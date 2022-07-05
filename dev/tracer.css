@@ -1,0 +1,65 @@
+
+@font-face {
+  font-family: 'Monoid';
+  src: url('./assets/Monoid-Regular.woff2') format('woff2');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Monoid';
+  src: url('./assets/Monoid-Italic.woff2') format('woff2');
+  font-style: italic;
+}
+
+#tracerShow {
+  margin: 12px;
+}
+
+#tracerShow:after {
+  content: " Tracer";
+}
+
+
+#tracer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #999;
+  font-family: sans-serif;
+  color: #332;
+  font-size: 13px;
+}
+
+#tracer button {
+  background-color: #bbb;
+  border: 1px solid #777;
+  border-radius: 4px;
+  color: #222;
+}
+
+#tracerSettingsContainer {
+  
+  padding: 9px;
+}
+
+#tracerSettingsContainer input {
+  background-color: #aaa;
+  border: 1px solid #888;
+}
+
+#tracerStreamContainer {
+  margin: 9px;
+	width: 340px;
+  float: right;
+}
+
+#tracerStreamContainer textarea {
+  width: 100%;
+  background-color: rgba(200, 200, 200, 0);
+  border: 1px solid gray;
+  font-family: Monoid, monospace;
+  font-size: 9px;
+  font-smoothed: never;
+  -webkit-font-smoothing: never;
+  -moz-osx-font-smoothing: never;
+}
